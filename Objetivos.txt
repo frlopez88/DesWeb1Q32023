@@ -12,7 +12,7 @@ Sesión 3 Semana 1
     a) Curly Parameters
 
 
-Sesión 1 Semana 2 
+Sesión 1 y 2 Semana 2 
 
 1) Repaso de lo aprendido 
 2) Retornar información en Json 
@@ -22,3 +22,19 @@ Sesión 1 Semana 2
         Consumo de Datos 
 3) Ejercicios de Clase 
 
+Semana 3 Sesion 2 
+Ejercicios de Clase 
+
+1) Desarrollar los web services necesarios para las siguientes tablas:
+
+    a) heroes:  id, nombre, identidad_secreta, activo, fecha_borra
+    b) poderes: id , nombre, activo, fecha_borra
+    c) heroes_poder: id, id_poder , id_heroe, activo, fecha_borra
+
+Para todas las tablas 
+    a) Post 
+    b) Put
+    c) Delete
+    d) Get
+
+    

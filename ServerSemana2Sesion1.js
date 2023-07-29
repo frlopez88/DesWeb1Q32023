@@ -29,7 +29,7 @@ app.post('/api/persona', (req, res) => {
                 ($1, $2) returning id 
                 `;
 
-    db.one(sql, datos, event => event.id)
+    db.one(sql, datos, e => e.id)
         .then(data => {
 
             const objetoCreado = {
@@ -119,8 +119,10 @@ app.delete('/api/persona/:id', (req, res) => {
     db.result(sql, [req.params.id] ,   r => r.rowCount)
         .then(data => {
 
+            
             const objetoBorrado     = {  id : req.params.id, 
-                                        activo : false   };
+                                        activo : false
+                                    };
             
             res.json(objetoBorrado);
 
