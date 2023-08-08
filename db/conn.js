@@ -1,5 +1,5 @@
  const pgp = require('pg-promise')();
- const cn = "postgresql://postgres:Hola12$@localhost:5432/postgres";
+ const cn = "postgresql://postgres:Hola12$@localhost:5432/postgres123";
  const db = pgp(cn);
 
  db.connect()
